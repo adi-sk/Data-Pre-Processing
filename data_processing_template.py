@@ -4,7 +4,7 @@
 
 import numpy as np 
 import matplotlib.pyplot as plt # to plot chart
-import pandas as pd #this is a best library to import data set
+import pandas as pd #this is the best library to import data set
 
 #---------------------------#----------------------------------------------
 
