@@ -57,7 +57,7 @@ Y = labelencoder_Y.fit_transform(Y)
 #--------------------------------------------#------------------------------------------
 
                 #spliting the dataset into training set and test set
-# here we are going to build our machine learning modle on training set
+# here we are going to build our machine learning model on training set
 # and we are going to test our ML model on the test set
 
 #here we are going to use cross_validation library from sklearn
@@ -74,32 +74,3 @@ from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler() 
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
